@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.greg7gkb.deputy",
+      "sha256_cert_fingerprints": [
+        "28:66:4E:07:7E:F4:04:FA:14:92:C1:1A:DD:90:11:25:58:71:3C:A7:4D:43:7E:B3:87:91:10:87:F7:C4:2D:DB"
+      ]
+    }
+  }
+]

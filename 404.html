@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not here</title>
+<style>
+  body { margin: 0; background: #f6f5f2; color: #17181a; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 560px; margin: 0 auto; padding: 64px 16px; }
+  a { color: #2b5a44; }
+  p { color: #5d5f63; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Nothing to see here</h1>
+  <p id="deputy" hidden>This is a link back to something <a href="https://github.com/greg7gkb/deputy">Deputy</a> created.
+  It opens in the Deputy app, on the phone that created it, and shows nothing on the web.</p>
+  <p id="other">This page doesn't exist. <a href="/">Home</a>.</p>
+</main>
+<script>
+  if (location.pathname.startsWith("/deputy/activity/")) {
+    document.getElementById("deputy").hidden = false;
+    document.getElementById("other").hidden = true;
+  }
+</script>
+</body>
+</html>
